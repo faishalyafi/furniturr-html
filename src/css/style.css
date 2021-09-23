@@ -1,0 +1,98 @@
+.header-satu {
+  background-color: black;
+  height: 6vh;
+}
+.header-satu a {
+  color: white;
+  font-weight: 600;
+}
+.jumbotron {
+  height: 70vh;
+  background-image: url(../images/banner1.jpg);
+}
+.container-dis {
+  box-sizing: border-box;
+  width: 40%;
+  text-align: end;
+}
+.bodyatas {
+  width: 90%;
+  height: 80vh;
+  margin: 70px auto;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+
+/* bskiri */
+.batas-satu {
+  width: 30%;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.bs-kiri-a {
+  flex-grow: 4;
+}
+.bs-kiri-b {
+  flex-grow: 6;
+}
+/* bskiri */
+.batas-dua {
+  width: 30%;
+  flex-grow: 1;
+}
+/* bs-kanan */
+.batas-tiga {
+  width: 30%;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.bs-kanan-a {
+  flex-grow: 6;
+}
+.bs-kanan-b {
+  flex-grow: 4;
+}
+/* bs-kanan */
+
+/* bodytengah */
+.bodytengah {
+  width: 90%;
+  height: 60vh;
+  margin: 150px auto 60px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.bt-atas,
+.bt-bawah {
+  flex-grow: 1;
+  display: flex;
+  gap: 20px;
+}
+.bt-atas div,
+.bt-bawah div {
+  background-color: purple;
+  flex-grow: 1;
+}
+/* bodytengah */
+
+.tulisan-tengah {
+  text-align: center;
+}
+
+.baner-bawah {
+  width: 30%;
+  text-align: center;
+}
+.footer {
+  background-color: black;
+  height: 50vh;
+  width: 100%;
+}
